@@ -10,7 +10,7 @@
 ## 2. 作为单体项目
 请无视  my-api， my-consumer 模块， 并在MyProviderApplication里注释掉@EnableDubbo即可。
 
-## 3. 作为服务者提供者或者消费者
+## 3. 作为服务提供者或者消费者
 1.安装nacos，并启动<br>
 2.依次启动 my-provider，my-consumer，然后测试my-consumer里controller里的接口即可<br>
 3.打包需要[_install_] my-api到maven仓库，默认为本地，然后[_package_]你需要打包的模块即可。
